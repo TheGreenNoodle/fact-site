@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { FetchData } from "../Functions/FetchData";
 
+import { Footer } from "./Footer";
+
 function Facts({
   textData, //Text Json.
   dataPropNameText, //Property name for text.
@@ -27,9 +29,12 @@ function Facts({
   //   <p>{data.text}</p>
   // </header>
   return (
-    <div className="factsBox">
-      <img className="img" src={data.img} alt={imgAlt} />
-      <p className="text">{data.text}</p>
+    <div>
+      <div className="factsBox">
+        <img className="img" src={data.img} alt={imgAlt} />
+        <p className="text">{data.text}</p>
+      </div>
+      <Footer />
     </div>
   );
 }

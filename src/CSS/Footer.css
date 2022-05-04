@@ -1,12 +1,16 @@
 .footer {
   background-color: #395b64;
-  box-shadow: 0 0 5px 5px;
 
-  position: fixed;
+  border-bottom-width: inherit;
+  border-style: solid;
+
+  position: absolute;
 
   bottom: 0;
-  left: 0;
   right: 0;
+  left: 0;
+
+  margin: auto;
 
   border-radius: 50px 50px 0 0;
 }

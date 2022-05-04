@@ -1,7 +1,6 @@
 // client/src/App.js
 import { Facts } from "./Components/Facts";
 import { Header } from "./Components/Header";
-import { Footer } from "./Components/Footer";
 
 import "./CSS/App.css";
 
@@ -25,7 +24,6 @@ function App() {
         dataPropNameImg="url"
         imgAlt="cat-img"
       />
-      <Footer />
     </div>
   );
 }

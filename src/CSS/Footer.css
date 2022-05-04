@@ -1,0 +1,36 @@
+.footer {
+  background-color: #395b64;
+  box-shadow: 0 0 5px 5px;
+
+  position: fixed;
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  border-radius: 50px 50px 0 0;
+}
+
+/* Large laptop */
+@media only screen and (min-width: 1440px) {
+  .footer {
+  }
+}
+/* laptop */
+@media only screen and (max-width: 1439px) and (min-width: 1024px) {
+  .footer {
+  }
+}
+/* Tablet */
+@media only screen and (max-width: 1023px) and (min-width: 426px) {
+  .footer {
+  }
+}
+/* Large mobile */
+@media only screen and (max-width: 425px) and (min-width: 375px) {
+  .footer {
+  }
+}
+/* Med and Sm mobile */
+@media only screen and (max-width: 375px) {
+}

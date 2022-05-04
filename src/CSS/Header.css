@@ -1,2 +1,38 @@
 .header {
+  background-color: #395b64;
+  box-shadow: 0 0 5px 5px;
+
+  position: absolute;
+  margin: 0, auto;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  border-radius: 0 0 50px 50px;
+}
+
+/* Large laptop */
+@media only screen and (min-width: 1440px) {
+  .header {
+  }
+}
+/* laptop */
+@media only screen and (max-width: 1439px) and (min-width: 1024px) {
+  .header {
+  }
+}
+/* Tablet */
+@media only screen and (max-width: 1023px) and (min-width: 426px) {
+  .header {
+  }
+}
+/* Large mobile */
+@media only screen and (max-width: 425px) and (min-width: 375px) {
+  .header {
+  }
+}
+/* Med and Sm mobile */
+@media only screen and (max-width: 375px) {
 }

@@ -28,11 +28,7 @@ function Facts({
   // </header>
   return (
     <div className="factsBox">
-      <img
-        className="img"
-        src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-jumbo.jpg?quality=75&auto=webp"
-        alt={imgAlt}
-      />
+      <img className="img" src={data.img} alt={imgAlt} />
       <p className="text">{data.text}</p>
     </div>
   );

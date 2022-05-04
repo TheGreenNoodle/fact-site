@@ -1,8 +1,9 @@
 // client/src/App.js
 import { Facts } from "./Components/Facts";
 import { Header } from "./Components/Header";
+import { Footer } from "./Components/Footer";
 
-import "./App.css";
+import "./CSS/App.css";
 
 function App() {
   // <Facts
@@ -19,8 +20,12 @@ function App() {
       <Facts
         textData="https://meowfacts.herokuapp.com/"
         dataPropNameText="data"
+        imgData="https://cataas.com/cat?json=true"
+        apiHomeImg="https://cataas.com/"
+        dataPropNameImg="url"
         imgAlt="cat-img"
       />
+      <Footer />
     </div>
   );
 }

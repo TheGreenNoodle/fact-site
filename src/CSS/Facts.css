@@ -1,0 +1,37 @@
+.factsBox {
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  background-color: green;
+}
+.img {
+  height: 75%;
+  width: 75%;
+  border-radius: 20px;
+  outline-style: solid;
+}
+
+.text {
+  color: pink;
+}
+/* Large laptop */
+@media only screen and (min-width: 1440px) {
+  .img {
+    height: 40%;
+    width: 40%;
+  }
+}
+/* laptop */
+@media only screen and (max-width: 1439px) and (min-width: 1024px) {
+  .img {
+    height: 50%;
+    width: 50%;
+  }
+}
+/* Large mobile */
+@media only screen and (max-width: 425px) and (min-width: 375px) {
+}
+/* Med and Sm mobile */
+@media only screen and (max-width: 375px) {
+}
